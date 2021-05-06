@@ -6,9 +6,9 @@
             <p class="font-bold text-3xl text-white my-4">{{getResultado}}</p>
         </div>
         <div class="grid grid-cols-4 grid-rows-5 shadow-xl rounded-b-lg ">
-            <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="clickAC()">AC</button>
+            <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700 col-span-2" @click="clickAC()">AC</button>
             <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="clickDEL()">DEL</button>
-            <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="click('%')">%</button>
+            <!-- <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="click('%')">%</button> -->
             <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="click('÷')">÷</button>
 
             <button class="h-16 text-xl text-white font-semibold bg-gray-600 border-gray-800 hover:bg-gray-700" @click="click('7')">7</button>
